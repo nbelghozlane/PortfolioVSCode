@@ -1,6 +1,6 @@
 body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
     background-image: url('img/pawel-czerwinski-Qiy4hr18aGs-unsplashcropped.jpg')
 }
 
@@ -36,8 +36,8 @@ textarea {
     text-align: justify;
     padding: 5px 50px 5px 50px;
     color: darkslategrey;
-    font-size: 18px;
-   
+    font-size: 20px;
+    opacity: 0.85;
 }
 
 .row {
@@ -47,11 +47,11 @@ textarea {
     background-color: whitesmoke;
     box-shadow: 0 0 20px black;
     border-radius: 2em;
-    padding-right: 58px;
-    padding-left: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
     overflow: hidden;
     margin-bottom: 50px;
-    opacity: 0.9;
+    opacity: 0.85;
 }
 
 .home-page {
@@ -76,6 +76,7 @@ h1 {
     text-align: center;
     font-family: Brush Script MT, Brush Script Std, cursive;
     color: darkslategray;
+    font-weight: bold;
 }
 
 .sub-head {
@@ -120,7 +121,9 @@ h3 {
     background-color: whitesmoke;
     box-shadow: 0 0 20px black;
     border-radius: 2em;
-    opacity: 0.83;
+    opacity: 0.85;
+    color: darkslategray;
+    font-weight: bold;
 }
 
 .button {
@@ -129,9 +132,10 @@ h3 {
     font-weight: bold;
     border: 2px solid black;
     padding: 10px 10px 10px 10px;
-    font-size: 13px;
+    font-size: 15px;
     border-radius: 2em;
     transition-duration: 0.4s;
+    box-shadow: 0 0 10px black;
 }
 
 .button:hover {
@@ -145,13 +149,14 @@ h3 {
     text-decoration: none;
 }
 
+
 .footer {
-    background-color: whitesmoke;
+    background-color: lightgray;
     padding-top: 25px;
     text-align: center;
     color: black;
     font-size: 19px;
-    border: 1px solid black;
+    border: 2px solid darkslategray;
     margin-top: 50px;
     margin-bottom: 1px;
     height: 80px;
@@ -185,7 +190,16 @@ h3 {
         color: black;
     }
 
+    a:link {
+        color: darkslategray;
+    }
+
 }
 
+.btn-primary {
+    color: white;
+   background-color: palevioletred;
+   text-decoration: none;
+}
 
  
