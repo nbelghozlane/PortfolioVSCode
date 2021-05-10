@@ -124,6 +124,8 @@ h3 {
     opacity: 0.85;
     color: darkslategray;
     font-weight: bold;
+    width: 500px;
+    margin: 0 auto;
 }
 
 .button {
@@ -197,9 +199,8 @@ h3 {
 }
 
 .btn-primary {
-    color: white;
+   color: white;
    background-color: palevioletred;
    text-decoration: none;
 }
 
- 
