@@ -1,0 +1,191 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url('img/pawel-czerwinski-Qiy4hr18aGs-unsplashcropped.jpg')
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 80px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.about-image {
+    float: right;
+    position: page;
+    padding-bottom: 10px;
+}
+
+.about-me {
+    text-align: center;
+    text-align: justify;
+    padding: 5px 50px 5px 50px;
+    color: darkslategrey;
+    font-size: 18px;
+   
+}
+
+.row {
+    border: 2px solid darkslategray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px black;
+    border-radius: 2em;
+    padding-right: 58px;
+    padding-left: 40px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    opacity: 0.9;
+}
+
+.home-page {
+    border: 2px solid darkslategray;
+    padding: 40px 50px 50px 50px;
+    background-color: whitesmoke;
+    border-radius: 2em;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    opacity: 0.8;
+    box-shadow: 0 0 20px black;
+}
+
+.link-icons {
+    text-align: right;
+    padding-top: 5px;
+    padding-left: 70px;
+}
+
+h1 {
+    font-size: 90px;
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: darkslategray;
+}
+
+.sub-head {
+    text-align: center;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 75px;
+    text-align: center;
+    color: darkslategray;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-label {
+    font-size: 20px;
+}
+
+.col-md-4 {
+    text-align: center;
+    font-size: 18px;
+    border-radius: 1em;
+    overflow: hidden;
+    padding-top: 40px;
+}
+
+.panel-body-more {
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 80px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.contact-div {
+    border: 2px solid darkslategray;
+    padding: 50px 50px 50px 50px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px black;
+    border-radius: 2em;
+    opacity: 0.83;
+}
+
+.button {
+    background-color: palevioletred;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    font-size: 13px;
+    border-radius: 2em;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+   color: black;
+   background-color: lightsteelblue;
+   text-decoration: none;
+}
+
+.button a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: whitesmoke;
+    padding-top: 25px;
+    text-align: center;
+    color: black;
+    font-size: 19px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 1px;
+    height: 80px;
+}
+
+.nav{
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 25px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+        margin: 0 auto;
+        margin-top: 5px;
+        display: table;
+        table-layout: fixed;
+        padding: 0px 50px 5px 50px;
+        background-color: whitesmoke;
+        opacity: .80;
+    }
+
+    .nav li a:hover {
+        color: white;
+        background-color: palevioletred;
+    }
+
+    nav li a:visited {
+        color: black;
+    }
+
+}
+
+
+ 
